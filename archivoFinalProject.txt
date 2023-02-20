@@ -1,0 +1,40 @@
+ //Analisis de los Requerimientos del Programa//
+
+
+Crear un Programa que pueda realizar cotizaciones de manera autonoma, ya que nuestra empresa enfrenta una 
+alta de demanda de clientes que requieren esta informacion, el origen del problema se debe a que 
+este proceso no se realiza, por ahora, de manera automatica, sino que es de manera manual, tomando esto mucho tiempo para
+poder registrar la informacion y traerla de vuelta. 
+
+el programa de manera automatica creara las cotizaciones bajo los parametros solicititados facilitando asi mismo,
+la experiencia del usurio y la calidad de la misma. 
+  
+dependiendo del tipo de cliente,
+y poder realizar los calculos segun: 
+A. la edad
+B. Estado Civil
+C. Cantidad de hijos o hijas.
+
+Agregandole los cargos basados en la informacion del Miembro
+
+Edad 18 = 0.1 // 10%
+Edad 25 = 0.2 // 20%
+Edad 50 = 0.3 // 30%
+
+casado_18 = 0.1 // 10%
+casado_25 = 0.2 // 20%
+casado_50 = 0.3 // 30%
+
+
+
+                            //Algoritmo//
+
+1 Variables utiles
+2 Precio base de la cotización, en quetzales, lo puede cambiar
+3 Mensajes de alerta para ingresar datos
+4 Valores de los recargos
+5 Recargo
+6 Precio final
+7 Sumamos todos los recargos que hemos obtenido
+8 Calculamos el recargo en base a la cantidad de hijos
+9 Sumamos todos los recargos que hemos obtenido
